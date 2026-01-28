@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PDS Page 1 - Personal Information</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h2>PERSONAL DATA SHEET</h2>
+<h3>CS Form No. 212 (Revised 2025)</h3>
+
+<form method="POST" action="/submit-page1">
+
+<section>
+  <h4>I. PERSONAL INFORMATION</h4>
+
+  <label>SURNAME</label>
+  <input type="text" name="surname" required>
+
+  <label>FIRST NAME</label>
+  <input type="text" name="firstname" required>
+
+  <label>MIDDLE NAME</label>
+  <input type="text" name="middlename">
+
+  <label>NAME EXTENSION (JR, SR)</label>
+  <input type="text" name="extension">
+
+  <label>DATE OF BIRTH</label>
+  <input type="date" name="dob">
+
+  <label>PLACE OF BIRTH</label>
+  <input type="text" name="pob">
+
+  <label>SEX</label>
+  <select name="sex">
+    <option value="">--Select--</option>
+    <option>Male</option>
+    <option>Female</option>
+  </select>
+
+  <label>CIVIL STATUS</label>
+  <select name="civil_status">
+    <option>Single</option>
+    <option>Married</option>
+    <option>Widowed</option>
+    <option>Separated</option>
+  </select>
+
+  <label>HEIGHT (m)</label>
+  <input type="text" name="height">
+
+  <label>WEIGHT (kg)</label>
+  <input type="text" name="weight">
+
+  <label>BLOOD TYPE</label>
+  <input type="text" name="blood_type">
+
+  <label>GSIS ID NO.</label>
+  <input type="text" name="gsis">
+
+  <label>PAG-IBIG ID NO.</label>
+  <input type="text" name="pagibig">
+
+  <label>PHILHEALTH NO.</label>
+  <input type="text" name="philhealth">
+
+  <label>SSS NO.</label>
+  <input type="text" name="sss">
+
+  <label>TIN</label>
+  <input type="text" name="tin">
+
+  <label>CITIZENSHIP</label>
+  <input type="text" name="citizenship">
+
+  <label>MOBILE NUMBER</label>
+  <input type="text" name="mobile">
+
+  <label>EMAIL ADDRESS</label>
+  <input type="email" name="email">
+
+</section>
+
+<button type="submit">Save Page 1</button>
+
+</form>
+
+</body>
+</html>
